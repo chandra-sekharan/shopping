@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.profile {
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 620px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 3px 5px 10px;
+    z-index: 104;
+    background-color: rgb(167, 252, 212);
+}
+.image{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.image img {
+    width: 80px;
+    margin-left: 8px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.name {
+    position: absolute;
+    margin-top: 180px;
+    width: 350px;
+    height: 50px;
+}
+.mail{
+    position: absolute;
+    margin-top: 280px;
+    width: 350px;
+    height: 50px;
+}
+.wishlist{
+    position: absolute;
+    margin-top: 380px;
+    width: 350px;
+    height: 50px;
+}
+.back{
+    width: 67%;
+    height: 109vh;
+    float: right;
+    margin-top: -700px;
+    background-color: rgb(124, 157, 250);
+}
+.back .smile {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 42%;
+    top: 36%;
+    background-color: rgb(230, 226, 9);
+    border-radius: 190px;
+    border: 1px solid;
+    animation: spin 3s linear infinite;
+    
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.eye1{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    margin-top: 75px;
+    border-radius: 20px;
+    margin-left: 55px;
+}
+
+.eye2{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 155px;
+    margin-top: -37px;
+}
+.smile1{
+  position: absolute;
+  z-index: 1;
+  top: 85px;
+  left: 0;
+  right: 0;
+  height: 110px;
+  width: 115px;
+  margin: 0 auto;
+  border-bottom: 8px solid #222;
+  border-radius: 100%;
+}
+h3 {
+    margin-top: -160px;
+    margin-left: 825px;
+    font-size: 40px;
+}
+.profile label{
+    margin-left: 25px;
+}
+.signingout{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 450px;
+    margin-left: 150px;
+}
+.signingout button {
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(26, 183, 223);
+    font-size: 18px;
+    box-shadow: 2px 5px 7px;
+}
+
+/****************LoginFirstPage************/
+h5{
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.loginfirst button{
+    position: relative;
+    width: 90px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: lightpink;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 5px 8px;
+    top: 50%;
+    left: 47%;
+}
+.loginfirst button:hover{
+    background-color: rgb(248, 150, 163);
+}
